@@ -1,0 +1,41 @@
+body {
+	background: #ccc;
+	font-family: arial;
+	margin: 0;
+}
+
+header {
+	background: #888;
+	padding: 2% 0 0 20%;
+}
+
+header h1 {
+	color: #aaa;
+	display: inline;
+	font-family: sakkal majalla;
+	font-size: 400%;
+}
+
+nav {
+	display: inline;
+}
+
+nav ul {
+	display: inline;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	background: #333;
+	color: #ccc;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #666;
+}
