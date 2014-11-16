@@ -1,0 +1,37 @@
+body {
+    background: #ccc;
+    margin: 0;
+}
+
+aside.sidebar-left {
+    background: #333;
+    border-right: 3px solid #eee;
+    float: left;
+    height: 100%;
+    position: fixed;
+    width: 20%;
+}
+
+div.content {
+    background: #ccc;
+    color: white;
+    float: right;
+    width: 80%;
+}
+
+.logo {
+    background: #222;
+    color: #ccc;
+    font-size: 60px;
+    padding: 0;
+    position: r
+    text-align: center;
+}
+
+.logo-small {
+    background: #ccc;
+    color: #333;
+    position: relative;
+    text-align: center;
+    top: -60px;
+}

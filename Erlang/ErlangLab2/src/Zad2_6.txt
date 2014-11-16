@@ -1,0 +1,4 @@
+2. lists:filter(fun(X) -> (X rem 13 == 0) and (X rem 3 == 0) end, [random:uniform(1000000000) || _ <- lists:seq(1,1000000)]).
+3. [X || X <- [random:uniform(1000000000) || _ <- lists:seq(1,1000000)], X rem 13 == 0, X rem 3 == 0].
+4. lists:foldl(fun(X,Y) -> X + Y - 48 end, 0, integer_to_list(100)).
+5. lists:filter(fun(Num) -> lists:foldl(fun(X,Y) -> X + Y - 48 end, 0, integer_to_list(Num)) rem 3 == 0 end, [random:uniform(1000000000) || _ <- lists:seq(1,1000000)]).
